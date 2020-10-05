@@ -4,7 +4,7 @@
 .header__row{
     justify-content: space-between;
 }
-.logo{
+.header__logo{
     margin: 25px 0 26px 0 ;
 }
 .nav__ul{
