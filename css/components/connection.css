@@ -1,0 +1,64 @@
+.connection__content{
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+.connection__number, .connection__description, .connection__time{
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--darkGray);
+}
+.connection__phone, .connection__number, .connection__description, .connection__time:not(.connection__time){
+    padding-right: 29px;
+}
+.connection__description{
+    display: block;
+    position: relative;
+}
+.connection__description::before{
+    position: absolute;
+    border-left: 1px solid var(--darkGray);
+    top: 0;
+    left: -10%;
+    content: "";
+    height: 16px;
+    width: 100%;
+}
+.connection__description::after{
+    position: absolute; 
+    border-right: 1px solid var(--darkGray);
+    top: 0;
+    right: 10%;
+    content: "";
+    height: 16px;
+    width: 100%;
+}
+.conection__sign, .connection__log{
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--darkGray);
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.conection__sign{
+    padding-right: 12px;
+    position: relative;
+}
+.conection__sign::after{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    content: '';
+    height: 16px;
+    width: 100%;
+    border-right: 1px solid var(--darkGray);
+    transform: rotate(25deg);
+}
