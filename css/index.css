@@ -2,3 +2,5 @@
 @import "classes.css";
 @import "var.css";
 @import "components/connection.css";
+@import "components/header.css";
+@import "components/hero.css";
