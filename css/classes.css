@@ -2,9 +2,14 @@
     max-width: 1110px;
     margin: auto;
 }
+.col-12{
+    width: 100%;
+}
+
 .col-6{
     width: 50%;
 }
+
 .col-3{
     width: 25%;
 }
@@ -17,4 +22,16 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.btn{
+    padding: 12px 28px;
+    border: 1px solid white;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
