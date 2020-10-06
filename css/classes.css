@@ -35,3 +35,23 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
+.item__subtitle{
+    margin-top:25px ;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.item__price{
+    margin-top: 10px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+.item__img{
+    padding: 55px 22px 56px 23px;
+    background: var(--colGray);
+}
