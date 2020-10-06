@@ -1,0 +1,27 @@
+.new__goods{
+    margin-top: 120px;
+}
+.new__goods__title{
+    margin-bottom: 121px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.new__goods__title::before{
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    top: 80px;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+    background-color: #fff;
+
+}
+.new__goods__item{
+    margin:0 0 40px 0 ;
+}

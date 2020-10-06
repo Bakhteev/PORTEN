@@ -36,32 +36,12 @@
 .col__item:nth-child(n+2){
     margin-left: 40px;
 }
-.col__img{
-    padding: 55px 22px 56px 23px;
-    background: var(--colGray);
-}
 .col__text{
     margin: 0;
     width: 260px;
 }
 .relative{
     position: relative;
-}
-.collection__subtitle{
-    margin-top:25px ;
-    font-family: "Playfair Display", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-}
-.collection__price{
-    margin-top: 10px;
-    font-family: "Playfair Display", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px;
 }
 .collection__img{
     position: absolute;
