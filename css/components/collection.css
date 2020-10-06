@@ -1,0 +1,130 @@
+.collection__title, .collection__title-2{
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.collection__title{
+    position: relative;
+    margin: 93px 0 100px 0;
+}
+.collection__title::before{
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    content: "";
+    transform: translate(-50%);
+    background-color: #fff;
+}
+.collection__content{
+    margin-bottom: 93px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.col__item{
+    width: 260px;
+    margin: 25px 0 0 0;
+}
+.col__item:first-child{
+    margin-left: 40px;
+}
+.col__item:nth-child(n+2){
+    margin-left: 40px;
+}
+.col__img{
+    padding: 55px 22px 56px 23px;
+    background: var(--colGray);
+}
+.col__text{
+    margin: 0;
+    width: 260px;
+}
+.relative{
+    position: relative;
+}
+.collection__subtitle{
+    margin-top:25px ;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.collection__price{
+    margin-top: 10px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+.collection__img{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+.collection__title-2{
+    position: relative;
+    transform: translateY(484px);
+}
+.collection__title-2::before{
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    background-color: #fff;
+}
+.collection__btn{
+    position: absolute;
+    top: 595px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.collection__info{
+    max-width: 471px;
+    margin-left: 205px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection__title-3{
+    position: relative;
+    margin: 100px 0 80px 0;
+    font-family: "Playfair Display",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.collection__title-3::after{
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.collection__description{
+    margin-bottom: 70px;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center
+}
+
+
+
