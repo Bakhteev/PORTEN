@@ -22,5 +22,57 @@
 
 }
 @media screen and (max-width:1024px){
-   
+    .connection__content{
+       justify-content: space-around;
+   }
+   .header__row{
+       justify-content: space-around;
+   }
+   .col-3
+   .item__img{
+       padding: 28px 11px 28px 11px;
+   }
+   .new__goods__content{
+       padding-left: 15px;
+   }
 }
+@media screen and (max-width: 768px){
+    .col__item{
+        width: 200px;
+    }
+    .col__content{
+        max-width: 768px;
+        padding-left: 25px;
+    }
+    .col__item:not(:first-child){
+        margin-left: 50px;
+    }
+    .col__content
+    .item__img{
+        width: 200px;
+        padding: 20px 12px 20px 12px;
+    }
+    .col__text{
+        top: 400px
+    }
+    .col-3{
+        width: 50%;
+    }
+    .collection__img, .col__img{
+        width: 768px;
+    }
+    .brands__content{
+        padding-left: 90px;
+    }
+    .new__goods__content {
+    padding-left: 95px;
+    }
+    .label{
+        flex-wrap: wrap;
+    }
+    .footer__btn{
+        margin-left: 35px;
+    }
+}
+
+    

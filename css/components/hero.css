@@ -36,7 +36,8 @@
     width: 320px;
     height: 320px ;
     top: -164px;
-    right: 400px;
+    left: 50%;
+    transform: translateX(-50%);
     content:"";
     border: 3px solid white;
 }
