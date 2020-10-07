@@ -1,7 +1,7 @@
 .hero{
     background: url(../../img/hero/heroBackground.png) no-repeat center;
     background-size: cover ;
-    height: 86vh;
+    height: 88vh;
 }
 .hero__content{
     flex-direction: column;

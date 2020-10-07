@@ -3,13 +3,6 @@
 }
 .new__goods__title{
     margin-bottom: 121px;
-    font-family: "Playfair Display", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
 }
 .new__goods__title::before{
     position: absolute;

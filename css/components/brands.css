@@ -1,0 +1,24 @@
+.brands{
+    margin-top: 110px;
+    padding-bottom: 80px;
+    background-color: var(--colGray);
+}
+.brands__title{
+    padding-top: 60px;
+}
+.brands__title::after{
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.brands__content{
+    margin-top: 80px;
+}
+.brands__item{
+    margin-bottom: 20px;
+}

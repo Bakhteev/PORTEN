@@ -5,11 +5,10 @@
 .col-12{
     width: 100%;
 }
-
 .col-6{
     width: 50%;
+    max-width: 960px;
 }
-
 .col-3{
     width: 25%;
 }
@@ -22,6 +21,13 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.relative{
+    position: relative;
 }
 .btn{
     padding: 12px 28px;
@@ -54,4 +60,20 @@
 .item__img{
     padding: 55px 22px 56px 23px;
     background: var(--colGray);
+}
+.title{
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-bold{
+    font-weight: bold;
+}
+.title-small{
+    font-size: 24px;
+    line-height: 32px;
 }
