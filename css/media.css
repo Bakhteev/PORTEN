@@ -2,9 +2,25 @@
     .col-6{
         width: 100%;
     }
+    .center{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col__content{
+        padding-left: 40px;
+    }
+    .collection__img{
+        margin-bottom: 80px;
+    }
+    .collection__info{
+        margin-left: 0;
+    }
+
+
 }
 @media screen and (max-width:1024px){
-    .col-6{
-        width: 100%;
-    }
+   
 }
