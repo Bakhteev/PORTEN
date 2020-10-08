@@ -18,8 +18,6 @@
     .collection__info{
         margin-left: 0;
     }
-
-
 }
 @media screen and (max-width:1024px){
     .connection__content{
@@ -73,6 +71,12 @@
     .footer__btn{
         margin-left: 35px;
     }
+    .slick-dots{
+        left: 54%;
+    }
+}
+@media screen and (max-width: 414px){
+
 }
 
     
