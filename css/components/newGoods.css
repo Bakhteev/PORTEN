@@ -21,3 +21,9 @@
 .slider-2__inner{
     width: 100%;
 }
+#slick-slide-control10,
+#slick-slide-control11,
+#slick-slide-control12,
+#slick-slide-control13{
+ margin: 20px;
+}

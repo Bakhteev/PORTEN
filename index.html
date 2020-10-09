@@ -88,6 +88,11 @@
                                 <h3 class="item__subtitle">Louis XVI ATHOS</h3>
                                 <p class="item__price">165 000 руб. </p>
                             </div>
+                            <div class="col-4 col__item">
+                                <img src="img/collection/collection2.png" alt="" class="item__img">
+                                <h3 class="item__subtitle">Louis XVI ATHOS</h3>
+                                <p class="item__price">165 000 руб. </p>
+                            </div>
                     </div>
                 </div>
                 <div class=" relative center">
@@ -261,7 +266,7 @@
         </div>
     </footer>
     <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="js/slick.min.js"></script> 
 
     <script>
      $('.slider-1').slick({
@@ -273,43 +278,43 @@
         });
     </script>
 
-            <script>
-                $('.slider-2').slick({
-                    dots: true,
-                    infinite: true,
-                    speed: 300,
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    rows: 2,
-                    slidesPerRow: 2,
-                    responsive: [
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 2,
-                                rows: 2,
-                                slidesPerRow: 2,
-                                infinite: true,
-                                dots: true
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]
-                });
-            </script>
+    <script>
+        $('.slider-2').slick({
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            rows: 2,
+            slidesPerRow: 2,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        rows: 2,
+                        slidesPerRow: 2,
+                        infinite: true,
+                        dots: true,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
 </html>
