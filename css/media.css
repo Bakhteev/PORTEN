@@ -19,13 +19,15 @@
         margin-left: 0;
     }
 }
-@media screen and (max-width:1024px){
-    .hero{
+@media screen and (max-width:1280px){
+     .hero{
         height: 84vh;
     }
-    .hero__logo{
+     .hero__logo{
         padding-top: 200px;
     }
+}
+@media screen and (max-width:1024px){
     .connection__content{
        justify-content: space-around;
    }
