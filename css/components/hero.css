@@ -2,7 +2,6 @@
     background: url(../../img/hero/heroBackground.png) no-repeat center;
     background-size: cover ;
     height: 88vh;
-    min-height: 680px;
 }
 .hero__content{
     flex-direction: column;
@@ -43,7 +42,7 @@
     border: 3px solid white;
 }
 .hero__description{
-    padding: 170px 175px 154px 175px;
+    padding: 170px 175px 0 175px;
     font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
