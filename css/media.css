@@ -21,7 +21,7 @@
 }
 @media screen and (max-width:1024px){
     .hero{
-        height: 82vh;
+        height: 84vh;
     }
     .hero__logo{
         padding-top: 200px;
@@ -42,20 +42,10 @@
 }
 @media screen and (max-width: 768px){
    .hero{
-       height: 71vh;
+       height: 80vh;
    }
-    .hero__logo{
-        padding-top: 160px;
-    }
-    .hero__subtitle::after{
-        width: 260px;
-        height: 260px;
-        top: -130px;
-    }
     .hero__description{
-        padding-top: 105px;
-        font-size: 14px;
-        line-height: 20px;
+        padding: 170px 80px 0 80px;
     }
     .col__item{
         width: 200px;
