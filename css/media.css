@@ -20,6 +20,12 @@
     }
 }
 @media screen and (max-width:1024px){
+    .hero{
+        height: 82vh;
+    }
+    .hero__logo{
+        padding-top: 200px;
+    }
     .connection__content{
        justify-content: space-around;
    }
@@ -35,6 +41,22 @@
    }
 }
 @media screen and (max-width: 768px){
+   .hero{
+       height: 71vh;
+   }
+    .hero__logo{
+        padding-top: 160px;
+    }
+    .hero__subtitle::after{
+        width: 260px;
+        height: 260px;
+        top: -130px;
+    }
+    .hero__description{
+        padding-top: 105px;
+        font-size: 14px;
+        line-height: 20px;
+    }
     .col__item{
         width: 200px;
     }
